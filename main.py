@@ -11,7 +11,8 @@ clock = pygame.time.Clock()
 
 # variables
 cuadrado = pygame.Rect(0,HEIGHT//2,60,60)
-velocidad = 3
+velocidad = 1
+aceleracion = 0.1
 
 
 while True:
@@ -21,6 +22,7 @@ while True:
 
     # code here
     cuadrado.x += velocidad
+    velocidad += aceleracion
     pygame.draw.rect(screen, (255, 255, 255), cuadrado)
 
     pygame.display.update()
