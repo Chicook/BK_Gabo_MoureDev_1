@@ -1,5 +1,6 @@
 # Gabo_MoureDev_1
 Saludos a quienes participaron en mi primer taller
+
 [taller en youtube](https://youtu.be/pSpflhLumdU?si=o2mDIoUpBQsJd6l-)
 
 codigo base de pygame
